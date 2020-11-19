@@ -12,6 +12,8 @@ public class Child extends Parent{
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<Integer>(20);
 		System.out.println(list.size());
+		Child obj = (Child) new Parent();
+		Parent p = new Child();
 		
 		System.out.println(isThisDateValid("1970-01-01T00:00:00.000Z","yyyy-MM-dd'T'HH:mm:ss.SSSXXX"));		
 	}
