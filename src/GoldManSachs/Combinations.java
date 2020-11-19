@@ -12,7 +12,7 @@ public class Combinations {
 //		    System.out.println(Arrays.toString(combination));
 //		}
 //		System.out.printf("generated %d combinations of %d items from %d ", combinations.size(), R, N);
-		String arr[] = {"Rahul", "Agarwal", "Gayle", "Maxwell", "Bisnoi", "Shami", "Jaiswal", "Buttler", "Smith", "Samson", "Tewatia", "Archer", "Gopal"};
+		String arr[] = {"Rohit", "DeCock", "Warner", "Bairstow", "Pandey", "Williamson", "Yadav", "Kishan", "Pandya", "Pollard"};
 		System.out.println("Input player's count : " +arr.length);
         int r = 2; 
         int n = arr.length; 
